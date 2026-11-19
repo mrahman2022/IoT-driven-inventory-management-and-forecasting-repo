@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# IDE settings
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Large datasets and generated models
+Dataset/*.csv
+Dataset/*.parquet
+*.pkl
+*.joblib
+
+# Firmware build files
+.pio/
+build/
